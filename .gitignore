@@ -1,0 +1,41 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.env
+.env*
+
+# Generated runtime output
+logs/
+cache/
+status/
+debug/
+debug_regime_snapshots/
+
+# Large or reproducible datasets/artifacts
+TrainingData/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+*.npz
+
+# Later/unfinished project versions
+v2/
+Non-GPT-V2/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
